@@ -41,7 +41,7 @@ const Picture = () => {
                                     <th scope="col" className="px-6 py-3">
                                         Card ID
                                     </th>
-                                    <th scope="col" className="px-6 py-3">
+                                    <th scope="col" className="px-6  py-3">
                                         Image
                                     </th>
                                     <th scope="col" className="px-6 py-3">
@@ -64,8 +64,8 @@ const Picture = () => {
                                         <td className="px-6 py-4">
                                             {cards.id}
                                         </td>
-                                        <td className="px-6 py-4">
-                                            {cards.image}
+                                        <td className="px-6 py-4" style={{ width: '150px' }}>
+                                            <img src={cards.image} alt={cards.imageTitle} className="max-w-full h-auto" />
                                         </td>
                                         <td className="px-6 py-4">
                                             {cards.imageTitle}

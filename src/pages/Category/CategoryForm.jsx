@@ -27,6 +27,7 @@ const CategoryForm = () => {
           console.log(res)
         })
       navigate('/category')
+      window.location.reload()
     }
   }
   return (

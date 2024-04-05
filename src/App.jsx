@@ -22,12 +22,12 @@ function App() {
     <>
    
     <BrowserRouter>
-    <div className="grid grid-cols-5">
-          <div className="col-span-1">
+    <div className="grid grid-cols-10">
+          <div className="col-span-2">
            {/* <AdminDashboard/> */}
 
           </div>
-          <div className="col-span-4 ">
+          <div className="col-span-8">
             <Routes>
               <Route path="/" element={<Login/>} />
               <Route path="/dashboard" element={<Dashboard/>} />
