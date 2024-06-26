@@ -14,6 +14,7 @@ import Feedback from './pages/Feedback/Feedback'
 import Payment from './pages/Payment/Payment'
 import CategoryForm from './pages/Category/CategoryForm'
 import Login from './pages/Login/Login'
+import PaymentMethod from './pages/PaymentMethod'
 
 function App() {
 
@@ -39,6 +40,7 @@ function App() {
               <Route path='/favourite' element={<Favourite/>} />
               <Route path='/feedback' element={<Feedback/>}/>
               <Route path='/payment' element={<Payment/>}/>
+              <Route path='/paymentmethod' element={<PaymentMethod/>}/>
               
               </Routes>
           </div>

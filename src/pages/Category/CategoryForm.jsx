@@ -17,6 +17,7 @@ const CategoryForm = () => {
   }
   const submitHandler = (e) => {
     e.preventDefault()
+    console.log(inputData.name)
     if (!inputData.name) {
       alert('Please fill category name')
     } else {

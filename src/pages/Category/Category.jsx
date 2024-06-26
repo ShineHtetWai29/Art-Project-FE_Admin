@@ -32,6 +32,7 @@ const Category = () => {
                 setCategories(response.data)
                 console.log(response.data)
             })
+            window.location.reload()
     }
     return (
         <>
